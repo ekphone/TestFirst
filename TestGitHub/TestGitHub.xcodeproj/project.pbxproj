@@ -15,6 +15,8 @@
 		A7888A331CFFEA01006368DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7888A311CFFEA01006368DD /* LaunchScreen.storyboard */; };
 		A7888A3E1CFFEA02006368DD /* TestGitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7888A3D1CFFEA02006368DD /* TestGitHubTests.m */; };
 		A7888A491CFFEA02006368DD /* TestGitHubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7888A481CFFEA02006368DD /* TestGitHubUITests.m */; };
+		A7888A591CFFF487006368DD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7888A571CFFF487006368DD /* RootViewController.m */; };
+		A7888A5A1CFFF487006368DD /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7888A581CFFF487006368DD /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A7888A441CFFEA02006368DD /* TestGitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7888A481CFFEA02006368DD /* TestGitHubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGitHubUITests.m; sourceTree = "<group>"; };
 		A7888A4A1CFFEA02006368DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7888A561CFFF487006368DD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A7888A571CFFF487006368DD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A7888A581CFFF487006368DD /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +108,9 @@
 			children = (
 				A7888A261CFFEA01006368DD /* AppDelegate.h */,
 				A7888A271CFFEA01006368DD /* AppDelegate.m */,
+				A7888A561CFFF487006368DD /* RootViewController.h */,
+				A7888A571CFFF487006368DD /* RootViewController.m */,
+				A7888A581CFFF487006368DD /* RootViewController.xib */,
 				A7888A291CFFEA01006368DD /* ViewController.h */,
 				A7888A2A1CFFEA01006368DD /* ViewController.m */,
 				A7888A2C1CFFEA01006368DD /* Main.storyboard */,
@@ -245,6 +253,7 @@
 			files = (
 				A7888A331CFFEA01006368DD /* LaunchScreen.storyboard in Resources */,
 				A7888A301CFFEA01006368DD /* Assets.xcassets in Resources */,
+				A7888A5A1CFFF487006368DD /* RootViewController.xib in Resources */,
 				A7888A2E1CFFEA01006368DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			files = (
 				A7888A2B1CFFEA01006368DD /* ViewController.m in Sources */,
 				A7888A281CFFEA01006368DD /* AppDelegate.m in Sources */,
+				A7888A591CFFF487006368DD /* RootViewController.m in Sources */,
 				A7888A251CFFEA01006368DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
